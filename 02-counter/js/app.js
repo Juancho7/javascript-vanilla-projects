@@ -1,7 +1,7 @@
-textCounter = document.querySelector('#text-counter');
-btnIncrement = document.querySelector('#btn-increment');
-btnReset = document.querySelector('#btn-reset');
-btnDecrement = document.querySelector('#btn-decrement');
+const textCounter = document.querySelector('#text-counter');
+const btnIncrement = document.querySelector('#btn-increment');
+const btnReset = document.querySelector('#btn-reset');
+const btnDecrement = document.querySelector('#btn-decrement');
 
 let counter = 0;
 

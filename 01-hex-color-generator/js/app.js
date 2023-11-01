@@ -1,6 +1,6 @@
-mainBackground = document.querySelector('#main-background');
-btnGenerateCode = document.querySelector('#btn-generate-code');
-textColorCode = document.querySelector('#text-color-code');
+const mainBackground = document.querySelector('#main-background');
+const btnGenerateCode = document.querySelector('#btn-generate-code');
+const textColorCode = document.querySelector('#text-color-code');
 
 const ramdomHexadecimal = () => {
   const hexadecimal = [
