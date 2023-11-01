@@ -34,6 +34,7 @@ const setBackgroundColor = () => {
   let hexBackgroundCode = '#' + ramdomHexadecimal();
 
   mainBackground.style.backgroundColor = hexBackgroundCode;
+  textColorCode.style.borderColor = hexBackgroundCode;
   textColorCode.textContent = hexBackgroundCode;
 };
 

@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hex-Colors Generator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>Hexadecimal Color Code Generator</header>
+    <header class="header">Hexadecimal Color Code Generator</header>
     <main id="main-background">
-      <div>
-        <h1>Background: <span id="text-color-code">#A3F5T2</span></h1>
+      <div class="div">
+        <h1 class="div__h1-info">
+          Background:
+          <span class="div__h1-info__color-code" id="text-color-code">
+            #A3F5T2
+          </span>
+        </h1>
       </div>
-      <button id="btn-generate-code">Click Me!</button>
+      <button class="button" id="btn-generate-code">Click Me!</button>
     </main>
     <script src="./js/app.js"></script>
   </body>
