@@ -4,18 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reviews Carousel</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <h1>Our Reviews</h1>
-    <div>
-      <img src="" alt="" id="img-person" />
-      <h2 id="name-person"></h2>
-      <h3 id="proffession-person"></h3>
-      <p id="description-person"></p>
-      <button id="btn-previous">Previous</button>
-      <button id="btn-next">Next</button>
-      <button id="btn-surpise-me">Surprise Me</button>
-      <script src="./js/app.js"></script>
-    </div>
+    <main>
+      <div class="div-center">
+        <div class="div-shadow">
+          <div class="div-person-info">
+            <img src="" alt="" id="img-person" class="div-person-info__img" />
+            <h2 id="name-person" class="div-person-info__h2-name"></h2>
+            <h3
+              id="proffession-person"
+              class="div-person-info__h3-proffession"
+            ></h3>
+            <p id="description-person" class="div-person-info__description"></p>
+          </div>
+        </div>
+        <div class="div-buttons">
+          <div class="div-buttons__order-buttons">
+            <button id="btn-previous" class="div-buttons__order-buttons__btn">
+              <
+            </button>
+            <button id="btn-next" class="div-buttons__order-buttons__btn">
+              >
+            </button>
+          </div>
+          <button id="btn-surpise-me" class="div-buttons__btn">
+            Surprise Me
+          </button>
+          <script src="./js/app.js"></script>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
