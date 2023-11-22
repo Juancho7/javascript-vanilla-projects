@@ -35,21 +35,19 @@
 .ul-links-mobile {
   position: absolute;
   top: -1000px;
-  left: -22px;
+  right: 20px;
   list-style-type: none;
 }
 
 .ul-links-mobile li {
-  width: 200px;
-  height: 20px;
-  padding: 5px 10px;
+  width: 230px;
   border-radius: 10px;
   background-color: #49a6e9;
 }
 
 .show-links {
   display: block;
-  top: 58px;
+  top: 63px;
 }
 
 .ul-links-mobile li:not(:last-child) {
@@ -67,6 +65,8 @@
 }
 
 li a {
+  padding: 5px 10px;
+  display: block;
   font-size: 1.1rem;
   text-decoration: none;
   color: #000;
